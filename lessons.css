@@ -17,6 +17,13 @@ body {
 	text-align: center;
   }
 
+  .lessontitle {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+
   .lesson {
 	margin-top: 32px;
 	display: grid;
