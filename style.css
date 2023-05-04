@@ -3,10 +3,41 @@ body {
 	color: #fff;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
-	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
+
+nav {
+    background-color: #001111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav h2 {
+	color: #7ED321;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 .container {
 	max-width: 960px;
@@ -25,8 +56,8 @@ h1 {
 }
 
 h2 {
+	text-align: center;
 	font-size: 24px;
-	margin-bottom: 10px;
 }
 
 .card {

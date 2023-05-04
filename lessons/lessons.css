@@ -1,7 +1,36 @@
 body {
 	background-color:  #101c1c;
-	font-family: Arial, sans-serif;;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
   }
+nav {
+    background-color: #001111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav h2 {
+	color: #7ED321;
+}
 
   .container {
 	max-width: 960px;
@@ -17,12 +46,6 @@ body {
 	text-align: center;
   }
 
-  .lessontitle {
-	color: white;
-	font-weight: bold;
-	margin-bottom: 20px;
-	text-align: center;
-  }
 
   .lesson {
 	margin-top: 32px;

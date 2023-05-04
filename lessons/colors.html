@@ -23,13 +23,59 @@
 			background-color: red;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		}
+		
+		#yellow:hover {
+			background-color: yellow;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		
+		#blue:hover {
+			background-color: blue;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		
+		#blue:hover h2,
+		#blue:hover p {
+			color: white;
+		}
+		
+		#green:hover {
+			background-color: green;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		
+		#green:hover h2,
+		#green:hover p {
+			color: white;
+		}
+		
+		#purple:hover {
+			background-color: purple;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+		#purple:hover h2,
+		#purple:hover p {
+			color: white;
+		}
+		
+		#orange:hover {
+			background-color: orange;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
 	
 	</style>
 	
 </head>
 <body>
-	<div class="container">
+	<nav>
+		<h2>Bulingo</h2>
 		<h1>Colors in Bulgarian</h1>
+		<ul>
+			<li><a href="../main.html">Home</a></li>
+		</ul>
+	</nav>																		
+
+	<div class="container">
 		<div class="lesson">
 			<div class="card" id="white">
 				<h2>бяло</h2>
@@ -46,25 +92,25 @@
 				<p>red</p>
 			</div>
 			
-			<div class="card">
-				<h2>Жълто</h2>
-				<p>Good evening</p>
+			<div class="card" id="yellow">
+				<h2>жълто</h2>
+				<p>yellow</p>
 			</div>
-			<div class="card">
-				<h2>Синьо</h2>
-				<p>Good evening</p>
+			<div class="card" id="blue">
+				<h2>синьо</h2>
+				<p>blue</p>
 			</div>
-			<div class="card">
-				<h2>Зелено</h2>
-				<p>Good evening</p>
+			<div class="card" id="green">
+				<h2>зелено</h2>
+				<p>green</p>
 			</div>
-			<div class="card">
-				<h2>Лилаво</h2>
-				<p>Good evening</p>
+			<div class="card" id="purple">
+				<h2>лилаво</h2>
+				<p>purple</p>
 			</div>
-			<div class="card">
-				<h2>Оранжево</h2>
-				<p>Good evening</p>
+			<div class="card" id="orange">
+				<h2>оранжево</h2>
+				<p>orange</p>
 			</div>
 		</div>
 	</div>
