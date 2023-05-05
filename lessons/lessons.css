@@ -38,6 +38,15 @@ nav h2 {
 	padding: 40px 20px;
   }
 
+.bul {
+	color: #7ED321;
+	font-size: 26px;
+}
+
+.bul:hover {
+	text-decoration: none;
+}
+
   h1 {
 	color: white;
 	font-size: 36px;
