@@ -1,2 +1,5 @@
-# Bulingo
-A Duolingo inspired website that teaches its' users the Bulgarian language
+# Welcome to my GitHub profile!
+
+Here are some websites I have made:
+
+- [Bulingo](https://mark-delchev.github.io/bulingo/)
