@@ -58,6 +58,8 @@ nav a:hover {
   	grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   	grid-gap: 20px;
   	justify-content: center;
+	height: 525px;
+	overflow: auto;
 }
 
 h1 {
@@ -124,4 +126,5 @@ h2 {
 	display: block;
 	text-decoration: none;
 	color: inherit;
+	margin-bottom: 0px;
 }
