@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 	<link rel="icon" href="../images/bulgaria.png" type="image/x-icon">
 	<link rel="stylesheet" href="lessons.css">
-	<script src="explanations.js"></script>
+	<script src="lessons.js"></script>
 	<style>
   		.lesson {
 			margin-top: 32px;
@@ -20,13 +20,16 @@
 			margin: 0 auto;
 			padding: 40px 20px;
 		  }
+		  
   	</style>
 </head>
 	<body>
 		<nav>
 			<h2><a class="bul" href="../index.html">Bulingo</a></h2>
-			<h1>Bulgarian Alphabet</h1>
+			<h1 class="centered">Bulgarian Alphabet</h1>
 			<ul>
+				<li><button id="toggleButton" onclick="toggleSound()">Mute</button></li>
+				<li><button id="toggleExplain" onclick="toggleExplain()">Disable Explanations</button></li>
 				<li><a href="../index.html">Home</a></li>
 			</ul>
 		</nav>		
@@ -122,123 +125,123 @@
 		</div>
 		<div class="container">
 			<div class="lesson">
-				<div class="card" onclick="toggleContent('button1')">
+				<div class="card" onclick="toggleContent('button1'); playSound('A.mpga')">
 					<h2>А</h2>
 					<p>A</p>
 				</div>
-				<div class="card" onclick="toggleContent('button2')">
+				<div class="card" onclick="toggleContent('button2'); playSound('B.mpga')">
 					<h2>Б</h2>
 					<p>B</p>
 				</div>
-				<div class="card" onclick="toggleContent('button3')">
+				<div class="card" onclick="toggleContent('button3'); playSound('V.mpga')">
 					<h2>В</h2>
 					<p>V</p>
 				</div>
-				<div class="card" onclick="toggleContent('button4')">
+				<div class="card" onclick="toggleContent('button4'); playSound('G.mpga')">
 					<h2>Г</h2>
 					<p>G</p>
 				</div>
-				<div class="card" onclick="toggleContent('button5')">
+				<div class="card" onclick="toggleContent('button5'); playSound('D.mpga')">
 					<h2>Д</h2>
 					<p>D</p>
 				</div>
-				<div class="card" onclick="toggleContent('button6')">
+				<div class="card" onclick="toggleContent('button6'); playSound('E.mpga')">
 					<h2>Е</h2>
 					<p>E</p>
 				</div>
-				<div class="card" onclick="toggleContent('button7')">
+				<div class="card" onclick="toggleContent('button7'); playSound('Zh.mpga')">
 					<h2>Ж</h2>
 					<p>Zh</p>
 				</div>
-				<div class="card" onclick="toggleContent('button8')">
+				<div class="card" onclick="toggleContent('button8'); playSound('Z.mpga')">
 					<h2>З</h2>
 					<p>Z</p>
 				</div>
-				<div class="card" onclick="toggleContent('button9')">
+				<div class="card" onclick="toggleContent('button9'); playSound('I.mpga')">
 					<h2>И</h2>
 					<p>I</p>
 				</div>
-				<div class="card" onclick="toggleContent('button10')">
+				<div class="card" onclick="toggleContent('button10'); playSound('Y.mpga')">
 					<h2>Й</h2>
 					<p>Y</p>
 				</div>
-				<div class="card" onclick="toggleContent('button11')">
+				<div class="card" onclick="toggleContent('button11'); playSound('K.mpga')">
 					<h2>К</h2>
 					<p>K</p>
 				</div>
-				<div class="card" onclick="toggleContent('button12')">
+				<div class="card" onclick="toggleContent('button12'); playSound('L.mpga')">
 					<h2>Л</h2>
 					<p>L</p>
 				</div>
-				<div class="card" onclick="toggleContent('button13')">
+				<div class="card" onclick="toggleContent('button13'); playSound('M.mpga')">
 					<h2>М</h2>
 					<p>M</p>
 				</div>
-				<div class="card" onclick="toggleContent('button14')">
+				<div class="card" onclick="toggleContent('button14'); playSound('N.mpga')">
 					<h2>Н</h2>
 					<p>N</p>
 				</div>
-				<div class="card" onclick="toggleContent('button15')">
+				<div class="card" onclick="toggleContent('button15'); playSound('O.mpga')">
 					<h2>О</h2>
 					<p>O</p>
 				</div>
-				<div class="card" onclick="toggleContent('button16')">
+				<div class="card" onclick="toggleContent('button16'); playSound('P.mpga')">
 					<h2>П</h2>
 					<p>P</p>
 				</div>
-				<div class="card" onclick="toggleContent('button17')">
+				<div class="card" onclick="toggleContent('button17'); playSound('R.mpga')">
 					<h2>Р</h2>
 					<p>R</p>
 				</div>
-				<div class="card" onclick="toggleContent('button18')">
+				<div class="card" onclick="toggleContent('button18'); playSound('S.mpga')">
 					<h2>С</h2>
 					<p>S</p>
 				</div>
-				<div class="card" onclick="toggleContent('button19')">
+				<div class="card" onclick="toggleContent('button19'); playSound('T.mpga')">
 					<h2>Т</h2>
 					<p>T</p>
 				</div>
-				<div class="card" onclick="toggleContent('button20')">
+				<div class="card" onclick="toggleContent('button20'); playSound('U.mpga')">
 					<h2>У</h2>
 					<p>U</p>
 				</div>
-				<div class="card" onclick="toggleContent('button21')">
+				<div class="card" onclick="toggleContent('button21'); playSound('F.mpga')">
 					<h2>Ф</h2>
 					<p>F</p>
 				</div>
-				<div class="card" onclick="toggleContent('button22')">
+				<div class="card" onclick="toggleContent('button22'); playSound('Kh.mpga')">
 					<h2>Х</h2>
 					<p>Kh</p>
 				</div>
-				<div class="card" onclick="toggleContent('button23')">
+				<div class="card" onclick="toggleContent('button23'); playSound('Ts.mpga')">
 					<h2>Ц</h2>
 					<p>Ts</p>
 				</div>
-				<div class="card" onclick="toggleContent('button24')">
+				<div class="card" onclick="toggleContent('button24'); playSound('Ch.mpga')">
 					<h2>Ч</h2>
 					<p>Ch</p>
 				</div>
-				<div class="card" onclick="toggleContent('button25')">
+				<div class="card" onclick="toggleContent('button25'); playSound('Sh.mpga')">
 					<h2>Ш</h2>
 					<p>Sh</p>
 				</div>
-				<div class="card" onclick="toggleContent('button26')">
+				<div class="card" onclick="toggleContent('button26'); playSound('Sht.mpga')">
 					<h2>Щ</h2>
 					<p>Sht</p>
 				</div>
-				<div class="card" onclick="toggleContent('button27')">
+				<div class="card" onclick="toggleContent('button27'); playSound('Aa.mpga')">
 					<h2>Ъ</h2>
 					<p>A</p>
 				</div>
-				<div class="card" onclick="toggleContent('button28')">
+				<div class="card" onclick="toggleContent('button28'); playSound('y.mpga')">
 					<h2>ь</h2>
 					<p>Y</p>
 				</div>
-				<div class="card" onclick="toggleContent('button29')">
+				<div class="card" onclick="toggleContent('button29'); playSound('Yu.mpga')">
 					<h2>Ю</h2>
 					<p>Yu</p>
 				</div>
-				<div class="card" onclick="toggleContent('button30')">
+				<div class="card" onclick="toggleContent('button30'); playSound('Ya.mpga')">
 					<h2>Я</h2>
 					<p>Ya</p>
 				</div>

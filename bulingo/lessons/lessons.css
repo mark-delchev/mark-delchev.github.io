@@ -12,6 +12,7 @@ nav {
     align-items: center;
     padding: 20px;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -33,6 +34,11 @@ nav a:hover {
 nav h2 {
 	color: #7ED321;
 }
+nav button {
+	width: 100px; /* Set a fixed width for the button */
+	/* Add any additional styles for the button as needed */
+  }
+  
 
   .container {
 	max-width: 960px;
@@ -114,5 +120,27 @@ nav h2 {
 	padding: 20px;
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
 	z-index: 9999;
-	transition: opacity 0.9s, visibility 0.3s;
+	transition: opacity 0.9s, visibility 0.1s;
   }
+
+#toggleButton, #toggleExplain {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: 20px;
+	color: #7ED321;
+	text-decoration: underline;
+	cursor: pointer;
+  }
+
+
+  h1.centered {
+	position: fixed;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* Add any additional styles for the <h1> element as needed */
+  }
+  
