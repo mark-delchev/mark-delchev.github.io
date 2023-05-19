@@ -11,7 +11,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+	height: 80px;
 }
+
+nav h2 {
+	color: #7ED321;
+}
+
 
 nav ul {
     list-style: none;
@@ -34,17 +40,12 @@ nav a:hover {
 nav h2 {
 	color: #7ED321;
 }
-nav button {
-	width: 100px; /* Set a fixed width for the button */
-	/* Add any additional styles for the button as needed */
-  }
   
-
-  .container {
+.container {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 40px 20px;
-  }
+}
 
 .bul {
 	color: #7ED321;
@@ -63,6 +64,8 @@ nav button {
 	margin-bottom: 20px;
 	text-align: center;
   }
+
+
 
 
   .lesson {
@@ -131,7 +134,6 @@ nav button {
 	font-family: inherit;
 	font-size: 20px;
 	color: #7ED321;
-	text-decoration: underline;
 	cursor: pointer;
   }
 

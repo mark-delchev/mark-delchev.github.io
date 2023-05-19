@@ -7,9 +7,9 @@ function toggleExplain() {
 
   var toggleButton = document.getElementById('toggleExplain');
   if (isExplainEnabled) {
-    toggleButton.textContent = 'Disable Explanations';
+    toggleButton.textContent = 'Disable Tips';
   } else {
-    toggleButton.textContent = 'Enable Explanations';
+    toggleButton.textContent = 'Enable Tips';
   }
 }
 
