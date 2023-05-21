@@ -17,8 +17,6 @@
 		}
 		 .container {
 			max-width: 1300px;
-			margin: 0 auto;
-			padding: 40px 20px;
 		  }
 		  
   	</style>
@@ -30,7 +28,7 @@
 			<ul>
 				<li><a href="../index.html">Home</a></li>
 			</ul>
-		</nav>		
+		</nav>	
 		<div id="button1-content" class="content">
 			Pronounced as "ah" in "car."
 		</div>	
@@ -121,7 +119,14 @@
 		<div id="button30-content" class="content">
 			Pronounced as "ya" in "yard."
 		</div>
+
+
 		<div class="container">
+			<!---Function buttons ----->
+			<div class="buttons">
+				<button id="toggleButton" onclick="toggleSound()">Mute</button>
+				<button id="toggleExplain" onclick="toggleExplain()">Disable Tips</button>	
+			</div>
 			<div class="lesson">
 				<div class="card" onclick="toggleContent('button1'); playSound('A.mpga')">
 					<h2>А</h2>
@@ -245,7 +250,5 @@
 				</div>
 			</div>
 		</div>
-		<button id="toggleButton" onclick="toggleSound()">Mute</button>
-		<button id="toggleExplain" onclick="toggleExplain()">Disable Tips</button>
 	</body>
 </html>

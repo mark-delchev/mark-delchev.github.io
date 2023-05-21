@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 	<link rel="icon" href="../images/bulgaria.png" type="image/x-icon">
 	<link rel="stylesheet" href="lessons.css">
+	<script src="lessons.js"></script>
 </head>
 <body>
 	<nav>
@@ -16,23 +17,27 @@
 		</ul>
 	</nav>		
 	<div class="container">
+		<!---Function buttons ----->
+		<div class="buttons">
+			<button id="toggleButton" onclick="toggleSound()">Mute</button>
+		</div>
 		<div class="lesson">
-			<div class="card" onclick="playSound('A.mpga')">
+			<div class="card" onclick="playSound('Zdraveite.mpga')">
 				<h2>Здравейте</h2>
 				<p>Hello</p>
 			</div>
 			
-			<div class="card">
+			<div class="card" onclick="playSound('Dobroutro.mpga')">
 				<h2>Добро утро</h2>
 				<p>Good morning</p>
 			</div>
 			
-			<div class="card">
+			<div class="card" onclick="playSound('Doburden.mpga')">
 				<h2>Добър ден</h2>
 				<p>Good day</p>
 			</div>
 			
-			<div class="card">
+			<div class="card" onclick="playSound('Doburvecher.mpga')">
 				<h2>Добър вечер</h2>
 				<p>Good evening</p>
 			</div>

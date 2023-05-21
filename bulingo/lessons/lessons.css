@@ -126,17 +126,24 @@ nav h2 {
 	transition: opacity 0.9s, visibility 0.1s;
   }
 
-#toggleButton, #toggleExplain {
-	background: none;
+  button {
+	background-color: #7ED321;
+	color: black;
 	border: none;
-	padding: 0;
-	margin: 0;
-	font-family: inherit;
-	font-size: 20px;
-	color: #7ED321;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px;
 	cursor: pointer;
+	border-radius: 20px;
   }
-
+  
+.buttons {
+	text-align: center;
+	margin-top: 20px;
+}
 
   h1.centered {
 	position: fixed;
