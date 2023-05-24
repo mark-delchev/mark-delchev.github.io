@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 	<link rel="icon" href="../images/bulgaria.png" type="image/x-icon">
 	<link rel="stylesheet" href="lessons.css">
+	<script src="lessons.js"></script>
 	<style>
 
 		#white:hover {
@@ -79,39 +80,43 @@
 	</nav>																		
 
 	<div class="container">
+		<!---Function buttons ----->
+		<div class="buttons">
+			<button id="toggleButton" onclick="toggleSound()">Mute</button>
+		</div>
 		<div class="lesson">
-			<div class="card" id="white">
+			<div class="card" id="white" onclick="playSound('byalo.mpga')">
 				<h2>бяло</h2>
 				<p>white</p>
 			</div>
 			
-			<div class="card" id="black">
+			<div class="card" id="black" onclick="playSound('cherno.mpga')">
 				<h2>черно</h2>
 				<p>black</p>
 			</div>
 			
-			<div class="card" id="red">
+			<div class="card" id="red" onclick="playSound('cherveno.mpga')">
 				<h2>червено</h2>
 				<p>red</p>
 			</div>
 			
-			<div class="card" id="yellow">
+			<div class="card" id="yellow" onclick="playSound('zhalto.mpga')">
 				<h2>жълто</h2>
 				<p>yellow</p>
 			</div>
-			<div class="card" id="blue">
+			<div class="card" id="blue" onclick="playSound('sinyo.mpga')">
 				<h2>синьо</h2>
 				<p>blue</p>
 			</div>
-			<div class="card" id="green">
+			<div class="card" id="green" onclick="playSound('zeleno.mpga')">
 				<h2>зелено</h2>
 				<p>green</p>
 			</div>
-			<div class="card" id="purple">
+			<div class="card" id="purple" onclick="playSound('lilavo.mpga')">
 				<h2>лилаво</h2>
 				<p>purple</p>
 			</div>
-			<div class="card" id="orange">
+			<div class="card" id="orange" onclick="playSound('oranzhevo.mpga')">
 				<h2>оранжево</h2>
 				<p>orange</p>
 			</div>
